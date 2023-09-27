@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #top h1, #top p {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
+    <div id="top">
     <h1>회원가입 Form</h1>
 
     <p>개인정보 입력</p>
+    </div>
+    <br>
 
     <form action = "form_ok.hph" method = "post">
 
@@ -36,7 +45,7 @@
             <br><br>
 
             <label for = "place">거주지(구 까지만):</label>
-            <input type = "text" id = "place" name = "place">
+            <input type = "text" id = "place" name = "place" placeholder="포항시 북구">
             <br>
         </fieldset>
         <br>
